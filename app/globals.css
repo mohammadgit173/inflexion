@@ -1,0 +1,287 @@
+@import "tailwindcss";
+
+/* Theme switching is driven by [data-theme] on <html>, stamped by next-themes
+   before first paint. :root carries the DARK palette so a no-JS render still
+   gets the intended default. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+:root {
+  --bg: #0a0a0b;
+  --surface: #121214;
+  --text: #ffffff;
+  /* 70% — body-weight secondary text. 7.4:1 on --bg */
+  --text-muted: rgba(255, 255, 255, 0.7);
+  /* Spec says 45%; 45% measures 4.48:1 which misses AA by 0.02. 47% passed
+     on the plain background, but the site-wide beams brighten it: over the
+     brightest beam 47% measured 4.15:1. 52% keeps small labels above 4.5. */
+  --text-faint: rgba(255, 255, 255, 0.52);
+  /* Decorative rules only — not load-bearing for meaning */
+  --hairline: rgba(255, 255, 255, 0.18);
+  --hairline-soft: rgba(255, 255, 255, 0.12);
+  /* Borders on interactive controls, held to 3:1 */
+  --border-interactive: rgba(255, 255, 255, 0.45);
+  --accent: #5ba7e8;
+  --accent-text: #5ba7e8; /* 7.7:1 on --bg, safe for inline links as-is */
+  --accent-soft: rgba(91, 167, 232, 0.14);
+  --sand: #c9a227;
+  --sand-text: #c9a227; /* 8.2:1 on --bg, safe as-is in dark */
+  --scrim: rgba(10, 10, 11, 0.72);
+  --hero-filter: none;
+  /* The scene paints its own near-black field, which does not match --bg.
+     'screen' drops black to transparent so only the light line work shows. */
+  --hero-blend: screen;
+  /* Raster art on a black field (section 002). Shown as-is in dark mode and
+     blended with --hero-blend so the black drops out. */
+  --art-filter: none;
+}
+
+[data-theme="light"] {
+  --bg: #fafaf8;
+  --surface: #ffffff;
+  --text: #0a0a0b;
+  /* 70% — 7.4:1 on --bg */
+  --text-muted: rgba(10, 10, 11, 0.7);
+  /* Spec says 50%; that measures 3.69:1 and fails AA for small text.
+     60% = 5.5:1. */
+  --text-faint: rgba(10, 10, 11, 0.6);
+  --hairline: rgba(10, 10, 11, 0.15);
+  --hairline-soft: rgba(10, 10, 11, 0.1);
+  --border-interactive: rgba(10, 10, 11, 0.5);
+  --accent: #4a90d9;
+  /* #4A90D9 is only 3.23:1 on #FAFAF8 — fine for borders and large type,
+     fails AA as body-size link text. This is the accessible sibling, 5.0:1. */
+  --accent-text: #2f6fb0;
+  --accent-soft: rgba(74, 144, 217, 0.12);
+  --sand: #b8922a;
+  /* #B8922A is only 2.8:1 on #FAFAF8 — fails AA as text and misses 3:1 for a
+     load-bearing border. This is the accessible sibling, 5.46:1. */
+  --sand-text: #7e6312;
+  --scrim: rgba(250, 250, 248, 0.72);
+  /* The scene is light line work on black; inverting puts dark lines on white.
+     Contrast is pushed ABOVE 1 to deepen those lines — below 1 washes them
+     toward mid-grey and the drawing nearly disappears on --bg. */
+  --hero-filter: invert(1) contrast(1.14);
+  /* Inverting black gives pure #FFFFFF, which reads as a white panel against
+     the warm #FAFAF8 page. 'multiply' drops white to transparent instead. */
+  --hero-blend: multiply;
+  /* invert() alone turns the blue glow orange; rotating the hue 180deg brings
+     it back to blue, giving dark-blue line work on white for multiply. */
+  --art-filter: invert(1) hue-rotate(180deg);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-text: var(--text);
+  --color-muted: var(--text-muted);
+  --color-faint: var(--text-faint);
+  --color-hairline: var(--hairline);
+  --color-hairline-soft: var(--hairline-soft);
+  --color-interactive: var(--border-interactive);
+  --color-accent: var(--accent);
+  --color-accent-text: var(--accent-text);
+  --color-accent-soft: var(--accent-soft);
+  --color-sand: var(--sand);
+  --color-sand-text: var(--sand-text);
+  --font-sans: var(--font-plex-sans);
+  --font-mono: var(--font-plex-mono);
+}
+
+@layer base {
+  * {
+    border-color: var(--hairline);
+  }
+
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font-plex-sans), ui-sans-serif, system-ui, sans-serif;
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Visible, consistent focus in both themes */
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 1px;
+  }
+
+  ::selection {
+    background: var(--accent-soft);
+    color: var(--text);
+  }
+}
+
+@layer utilities {
+  .mono {
+    font-family: var(--font-plex-mono), ui-monospace, monospace;
+    font-feature-settings: "zero" 1;
+  }
+
+  /*
+   * Legibility wash behind the hero copy. Sits inside the content layer's
+   * stacking context, so it covers the scene without covering the text.
+   * Soft-edged rather than a visible panel — it should never read as a box.
+   */
+  .hero-scrim {
+    position: relative;
+  }
+
+  .hero-scrim::before {
+    content: "";
+    position: absolute;
+    inset: -2.5rem -3rem;
+    z-index: -1;
+    pointer-events: none;
+    background: radial-gradient(
+      65% 75% at 22% 50%,
+      var(--scrim) 0%,
+      var(--scrim) 38%,
+      transparent 78%
+    );
+  }
+
+  /*
+   * Hero scene placement.
+   *
+   * The scene is composed for widescreen: in the 1600x939 capture the figure
+   * is centred at 74.7% across and 56% down, and spans ~27% of the width. On
+   * a phone that leaves it small and off to the right. Below lg, the stage is
+   * therefore rendered wider than the screen (capped so tablets don't get a
+   * huge figure) and offset so the figure sits centred in the box.
+   *
+   * Offsets derive from those capture ratios:
+   *   left = 50% - 0.747 * W
+   *   top  = 50% - 0.56 * (W / 1.704) = 50% - 0.3286 * W
+   * With the stage this tall, its bottom edge (where the vendor badge is
+   * drawn) always lands below the visible box, so the badge stays clipped.
+   */
+  .scene-stage {
+    --stage-w: min(200vw, 890px);
+    width: var(--stage-w);
+    aspect-ratio: 1600 / 939;
+    left: calc(50% - 0.747 * var(--stage-w));
+    top: calc(50% - 0.3286 * var(--stage-w));
+  }
+
+  /*
+   * The live scene's host is taller than the stage, so the vendor badge
+   * (anchored to the canvas bottom) falls outside the visible area. On
+   * desktop that is a fixed 76px strip. Below lg it must instead be
+   * proportional (912/836, the ratio the poster was captured at): the scene
+   * scales to its host's aspect ratio, so a fixed 76px strip on a small host
+   * changed its proportions and pushed the figure ~17px lower than the
+   * poster. Proportional keeps the live figure exactly where the poster is.
+   */
+  .scene-host {
+    height: calc(100% * 912 / 836);
+  }
+
+  @media (min-width: 1024px) {
+    .scene-host {
+      height: calc(100% + 76px);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .scene-stage {
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      aspect-ratio: auto;
+    }
+  }
+
+  /* Mono eyebrow/label treatment used across sections */
+  .label {
+    font-family: var(--font-plex-mono), ui-monospace, monospace;
+    font-size: 0.6875rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+  }
+}
+
+/*
+ * Above-the-fold reveals run as pure CSS, not JS.
+ * A motion-driven fade only starts after hydration, which made the hero <h1>
+ * the LCP element at 5.4s. As a CSS animation it begins at first paint.
+ */
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.reveal-in {
+  animation: reveal-in 550ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: var(--reveal-delay, 0ms);
+}
+
+@keyframes rule-draw {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.rule-draw {
+  transform-origin: left;
+  animation: rule-draw 900ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: var(--reveal-delay, 0ms);
+}
+
+/* Radix measures the panel and exposes its height as a CSS variable. */
+@keyframes accordion-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+
+@keyframes tab-fade {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
