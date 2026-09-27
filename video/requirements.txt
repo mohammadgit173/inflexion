@@ -1,0 +1,2 @@
+# Manim Community Edition — the maintained fork of 3Blue1Brown's library.
+manim>=0.18

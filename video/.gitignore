@@ -1,0 +1,4 @@
+# Rendered video and Manim's caches — regenerate them, don't commit them.
+out/
+.venv/
+__pycache__/
