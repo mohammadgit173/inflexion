@@ -1,0 +1,321 @@
+{
+  "meta": {
+    "title": "Tuteur de maths en ligne à Montréal | Inflexion",
+    "description": "Tutorat de maths en ligne pour le secondaire, le cégep et l'université. Calcul, algèbre linéaire, examens du Ministère. Consultation gratuite de 30 minutes.",
+    "ogAlt": "Inflexion — tutorat de mathématiques en ligne",
+    "keywords": "tuteur math Montréal, tuteur math en ligne, tutorat mathématiques secondaire, aide calcul différentiel cégep, tutorat maths Québec, préparation examen ministère maths, algèbre linéaire, équations différentielles, mathématiques discrètes"
+  },
+  "nav": {
+    "skipToContent": "Aller au contenu principal",
+    "home": "Inflexion — accueil",
+    "approach": "Approche",
+    "subjects": "Matières",
+    "process": "Déroulement",
+    "about": "À propos",
+    "faq": "FAQ",
+    "cta": "Consultation gratuite",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "events": "Événements"
+  },
+  "toggles": {
+    "theme": "Changer de thème",
+    "themeToLight": "Passer au thème clair",
+    "themeToDark": "Passer au thème sombre",
+    "language": "Changer de langue",
+    "languageToEn": "Switch to English"
+  },
+  "hero": {
+    "sectionNumber": "001",
+    "wordmark": "INFLEXION",
+    "headline": "Le moment où les maths prennent leur sens.",
+    "headlineAccent": "sens",
+    "sub": "Tutorat en ligne de mathématiques — niveaux secondaire, collégial et universitaire. Comprendre, au lieu de mémoriser.",
+    "ctaPrimary": "Réserver une consultation gratuite",
+    "ctaSecondary": "Voir l'approche",
+    "fallbackAlt": "Composition linéaire abstraite évoquant une courbe et son point d'inflexion",
+    "labels": {
+      "left": "PROPORTIO",
+      "center": "SEC · COLL · UNIV",
+      "right": "EN LIGNE"
+    },
+    "statValue": "100+",
+    "statLabel": "élèves accompagnés au cours des 3 dernières années"
+  },
+  "problem": {
+    "sectionNumber": "002",
+    "title": "Le problème",
+    "quote": "« Je ne suis juste pas bon en maths. »",
+    "lines": [
+      "C'est la phrase que j'entends le plus souvent.",
+      "Et elle est presque toujours fausse.",
+      "Les élèves qui ont de la difficulté ne manquent pas de talent : il leur manque une base solide, une méthode, et quelqu'un qui prend le temps de leur montrer pourquoi les choses fonctionnent.",
+      "Les notes suivent. La confiance aussi."
+    ]
+  },
+  "approach": {
+    "sectionNumber": "003",
+    "title": "L'approche",
+    "pillars": [
+      {
+        "number": "01",
+        "title": "Un diagnostic d'abord",
+        "body": "Avant tout, on trouve où ça bloque vraiment — souvent bien avant la matière actuelle — et comment l'élève se perçoit en maths."
+      },
+      {
+        "number": "02",
+        "title": "Des bases solides",
+        "body": "Ensuite, on rattrape les notions préalables qui manquent et on bâtit une vraie compréhension, pour que la suite repose sur du solide."
+      },
+      {
+        "number": "03",
+        "title": "Progresser, séance après séance",
+        "body": "Une fois les bases en place, on monte d'un cran à chaque séance : des problèmes plus exigeants, de meilleures méthodes, et des résultats qui s'améliorent."
+      },
+      {
+        "number": "04",
+        "title": "Changer d'état d'esprit",
+        "body": "On aide l'élève à passer de « je ne suis pas bon en maths » à « je sais comment m'y prendre ». La confiance se construit avec chaque réussite."
+      }
+    ]
+  },
+  "subjects": {
+    "sectionNumber": "004",
+    "title": "Ce qu'on enseigne",
+    "regionLabel": "Programme",
+    "regions": [
+      {
+        "id": "qc",
+        "label": "Québec",
+        "tabs": [
+          {
+            "id": "secondaire",
+            "label": "Secondaire",
+            "items": [
+              "Mathématiques 4e et 5e secondaire (SN)",
+              "Préparation aux examens du Ministère"
+            ]
+          },
+          {
+            "id": "cegep",
+            "label": "Cégep et université",
+            "items": [
+              "Calcul différentiel (Calcul I)",
+              "Calcul intégral (Calcul II)",
+              "Calcul de première année universitaire",
+              "Algèbre linéaire",
+              "Équations différentielles",
+              "Mathématiques discrètes"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "intl",
+        "label": "Ailleurs",
+        "tabs": [
+          {
+            "id": "secondaire",
+            "label": "Secondaire",
+            "items": [
+              "Mathématiques de fin du secondaire",
+              "Précalcul",
+              "AP Calculus AB et BC"
+            ]
+          },
+          {
+            "id": "universite",
+            "label": "Collège et université",
+            "items": [
+              "Calcul différentiel (Calcul I)",
+              "Calcul intégral (Calcul II)",
+              "Calcul de première année universitaire",
+              "Algèbre linéaire",
+              "Équations différentielles",
+              "Mathématiques discrètes"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "process": {
+    "sectionNumber": "005",
+    "title": "Comment ça marche",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Consultation gratuite (30 min)",
+        "body": "On parle de la situation, et je fais un mini-diagnostic avec l'élève pour repérer les notions à consolider. Ensemble, on établit les prochaines étapes."
+      },
+      {
+        "number": "02",
+        "title": "Un plan personnalisé",
+        "body": "Objectifs clairs, rythme réaliste, et les priorités selon les échéances scolaires."
+      },
+      {
+        "number": "03",
+        "title": "Séances en ligne",
+        "body": "Tableau blanc numérique, notes de séance après chaque rencontre, horaire flexible en soirée et la fin de semaine."
+      }
+    ]
+  },
+  "about": {
+    "sectionNumber": "006",
+    "title": "À propos",
+    "name": "Mono Awad",
+    "credential": "B. Ing. en génie informatique",
+    "photoAlt": "Portrait de Mono Awad, fondateur d'Inflexion",
+    "paragraphs": [
+      "Bonjour, moi c'est Mono. J'ai un baccalauréat en génie informatique, et pendant mes études, j'ai enseigné deux ans à l'université, notamment les mathématiques discrètes.",
+      "Avec mes étudiants, j'ai remarqué la même chose encore et encore : ceux qui avaient de la difficulté ne manquaient pas de talent — ils s'étaient convaincus qu'ils n'étaient « pas bons en maths ».",
+      "J'ai fondé Inflexion pour aider les élèves à atteindre ce point tournant."
+    ],
+    "personalStory": "",
+    "videoId": "",
+    "videoTitle": "Le point d'inflexion — le moment où la courbe change de sens",
+    "videoPlayLabel": "Lire la vidéo",
+    "videoFile": "",
+    "videoPoster": "/inflexion-curve-poster.jpg",
+    "reach": {
+      "qc": "J'ai aussi accompagné plus de 100 élèves du secondaire et du collégial à Montréal, et plus de 20 autres ailleurs dans le monde.",
+      "intl": "J'ai aussi accompagné plus de 120 élèves du secondaire, du collégial et de l'université, en Amérique du Nord et ailleurs dans le monde."
+    }
+  },
+  "testimonials": {
+    "sectionNumber": "007",
+    "title": "Témoignages",
+    "parentLabel": "Parent",
+    "items": []
+  },
+  "faq": {
+    "sectionNumber": "008",
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "q": "Comment se passent les séances en ligne ?",
+        "a": "Les séances se font par appel vidéo avec un tableau blanc numérique. Tout ce que j'écris est visible en direct, et les notes de la séance vous sont envoyées après chaque rencontre."
+      },
+      {
+        "q": "Est-ce que les parents sont impliqués ?",
+        "a": "Oui, pour les élèves mineurs. On commence par une conversation ensemble pour bien cerner la situation, et je fais des suivis réguliers sur les progrès."
+      },
+      {
+        "q": "Qu'est-ce qui est inclus dans la consultation gratuite ?",
+        "a": "Trente minutes, un mini-diagnostic avec l'élève, et un plan proposé pour la suite."
+      },
+      {
+        "q": "Quels sont vos tarifs ?",
+        "a": "À partir de 40 $ de l'heure, selon le niveau. La première consultation de 30 minutes est gratuite."
+      },
+      {
+        "q": "Politique d'annulation ?",
+        "a": "Une séance annulée ou déplacée au moins 24 heures à l'avance ne coûte rien. À moins de 24 heures, la séance est facturée, puisque la plage horaire vous était réservée et ne peut plus être comblée. En cas d'imprévu sérieux — maladie, urgence — écrivez-moi et on s'arrange."
+      }
+    ]
+  },
+  "booking": {
+    "sectionNumber": "009",
+    "title": "On commence par une conversation.",
+    "note": "30 minutes. Aucun engagement.",
+    "embedTitle": "Calendrier de réservation"
+  },
+  "footer": {
+    "wordmark": "INFLEXION",
+    "tagline": "Tutorat de mathématiques en ligne — secondaire, collégial et universitaire.",
+    "email": "math.inflexion@gmail.com",
+    "emailLabel": "Courriel",
+    "privacy": "Confidentialité",
+    "copyright": "© {year} Inflexion. Tous droits réservés."
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "metaDescription": "Comment Inflexion recueille, utilise, conserve et supprime les renseignements personnels des élèves et des parents qui réservent une consultation.",
+    "updated": "Dernière mise à jour : {date}",
+    "backHome": "Retour à l'accueil",
+    "sections": [
+      {
+        "heading": "Responsable de la protection des renseignements personnels",
+        "body": "Inflexion est dirigée par une seule personne : Mono Awad, établi à Montréal, au Québec. Je suis le responsable de la protection des renseignements personnels recueillis par ce site, et la seule personne qui y a accès. Vous pouvez me joindre à math.inflexion@gmail.com pour toute question sur cette politique ou sur les renseignements qui vous concernent."
+      },
+      {
+        "heading": "Ce que je recueille",
+        "body": "Au moment de la réservation, le formulaire recueille un nom, une adresse courriel, la date et l'heure que vous choisissez, ainsi que les renseignements que vous décidez de partager sur la situation scolaire de l'élève : niveau, cours, difficultés rencontrées. Si vous m'écrivez par courriel, je conserve cette correspondance. Pendant le tutorat, je prends des notes sur la matière vue et sur ce qu'il reste à travailler. Aucun renseignement de paiement n'est recueilli sur ce site : le paiement se règle directement entre nous, et aucun numéro de carte, coordonnée bancaire ou identifiant de paiement ne transite par ce site ni n'est conservé par moi."
+      },
+      {
+        "heading": "Pourquoi je le recueille",
+        "body": "Uniquement pour organiser la consultation, préparer les séances, enseigner et communiquer avec vous au sujet du tutorat. Rien n'est vendu, loué, communiqué à des annonceurs ni utilisé pour créer un profil. Il n'y a aucune décision automatisée ni aucune publicité sur ce site."
+      },
+      {
+        "heading": "Consentement",
+        "body": "Me transmettre ces renseignements — en réservant ou en m'écrivant — constitue votre consentement aux fins décrites ci-dessus. Vous pouvez le retirer en tout temps en m'écrivant. Le retrait m'empêche de planifier et de préparer les séances, ce qui met fin dans les faits à l'entente de tutorat ; il n'a pas d'effet sur ce qui a déjà été fait avant le retrait."
+      },
+      {
+        "heading": "Élèves mineurs",
+        "body": "Une partie des élèves sont mineurs. Dans ce cas, la réservation doit être faite par un parent ou un tuteur, c'est à lui que revient le consentement, et les communications sur l'horaire, les progrès et le paiement se font avec lui. Un parent ou un tuteur peut demander en tout temps de consulter, de corriger ou de supprimer les renseignements détenus au sujet de son enfant."
+      },
+      {
+        "heading": "Durée de conservation",
+        "body": "Les coordonnées, les notes de séance et la correspondance courriel sont conservées 24 mois après la dernière séance, puis supprimées. Si une consultation est réservée mais qu'aucun tutorat ne suit, la trace de cette réservation est supprimée dans les 12 mois. Si vous demandez la suppression plus tôt, je supprime les renseignements dès votre demande, sauf si la loi m'oblige à en conserver certains plus longtemps."
+      },
+      {
+        "heading": "Les services que j'utilise",
+        "body": "La prise de rendez-vous passe par Calendly, qui conserve le nom, le courriel et les réponses inscrites dans son formulaire selon sa propre politique de confidentialité (calendly.com/privacy). Le courriel et l'agenda fonctionnent avec les services de Google, selon la politique de Google (policies.google.com/privacy). Les séances se déroulent sur Google Meet, avec Lessonspace comme tableau blanc partagé (thelessonspace.com/privacy) ; Lessonspace conserve ce que nous écrivons au tableau afin de pouvoir le consulter plus tard. Les séances ne sont pas enregistrées, à moins d'une entente préalable. Le site est hébergé par Vercel (vercel.com/legal/privacy-policy), qui conserve des journaux de serveur standards, dont les adresses IP, à des fins de sécurité et de diagnostic. Chacune de ces entreprises agit comme fournisseur de services et n'est pas autorisée à utiliser vos renseignements à ses propres fins."
+      },
+      {
+        "heading": "Renseignements conservés à l'extérieur du Québec",
+        "body": "Les services énumérés ci-dessus conservent et traitent les renseignements sur des serveurs situés à l'extérieur du Québec — principalement aux États-Unis, et en Europe dans le cas de Lessonspace. Avant de les utiliser, j'ai tenu compte de la sensibilité de ce qui est recueilli — des coordonnées, du travail scolaire et des notes à son sujet, et non des renseignements financiers, médicaux ou des pièces d'identité — de la fin à laquelle ils servent, des protections auxquelles ces fournisseurs s'engagent contractuellement et du cadre juridique auquel ils sont soumis, et j'ai conclu que les renseignements bénéficient d'une protection adéquate. En réservant une consultation, vous consentez à cette communication. Si vous préférez que vos renseignements ne sortent pas du Québec, écrivez-moi et nous organiserons la consultation par courriel."
+      },
+      {
+        "heading": "Témoins et suivi",
+        "body": "Ce site conserve exactement deux choses qui lui sont propres dans votre navigateur : un témoin nommé inflexion_locale, qui retient si vous avez choisi le français ou l'anglais et dure un an, et votre choix de thème clair ou sombre, gardé dans le stockage local du navigateur et jamais transmis. Le cadre de réservation Calendly est un tiers intégré à la page et peut déposer ses propres témoins lorsque vous interagissez avec lui, selon la politique de Calendly.",
+        "id": "cookies"
+      },
+      {
+        "heading": "Sécurité",
+        "body": "Le site est servi uniquement en HTTPS. Les comptes qui contiennent vos renseignements sont protégés par des mots de passe uniques et par l'authentification à deux facteurs lorsque le fournisseur l'offre, et je suis la seule personne qui y a accès. Aucun mode de conservation ou de transmission n'est parfaitement sûr, et je ne prétends pas le contraire ; si un incident de confidentialité présentait un risque de préjudice sérieux, je vous en aviserais et j'aviserais la Commission d'accès à l'information, comme la loi l'exige."
+      },
+      {
+        "heading": "Vos droits",
+        "body": "Vous pouvez demander à consulter les renseignements que je détiens à votre sujet, à les faire corriger s'ils sont inexacts, à les faire supprimer, à retirer votre consentement, ou à les recevoir dans un format technologique structuré et couramment utilisé. Écrivez à math.inflexion@gmail.com et je répondrai dans les 30 jours. Si ma réponse ne vous satisfait pas, vous pouvez porter plainte auprès de la Commission d'accès à l'information du Québec (cai.gouv.qc.ca)."
+      },
+      {
+        "heading": "Modifications à cette politique",
+        "body": "Si cette politique change, la version révisée est publiée sur cette page et la date ci-dessus est mise à jour. Les modifications importantes touchant l'utilisation de vos renseignements vous seront communiquées par courriel."
+      }
+    ],
+    "analyticsClause": " Ce site utilise aussi Google Analytics pour compter les visites et voir quelles pages sont lues. L'outil dépose ses propres témoins et transmet votre adresse IP à Google, qui s'en sert pour estimer votre région avant de l'effacer ; l'anonymisation des adresses IP est activée. Il est configuré sans les fonctions publicitaires, donc les données ne servent pas à constituer un profil publicitaire. Vous pouvez vous y soustraire pour tous les sites avec le module de Google (tools.google.com/dlpage/gaoptout).",
+    "noAnalyticsClause": "Ce site n'utilise aucun outil d'analyse, aucune publicité et aucun pixel de suivi. "
+  },
+  "booked": {
+    "eyebrow": "CONFIRMÉ",
+    "title": "C'est réservé.",
+    "metaDescription": "Votre consultation gratuite avec Inflexion est confirmée.",
+    "lead": "Un courriel de confirmation s'en vient avec le lien de la rencontre et l'heure. Ajoutez-le à votre calendrier pour ne pas le perdre.",
+    "steps": [
+      "Vérifiez votre boîte de réception — le courriel contient le lien de la rencontre. S'il n'arrive pas dans quelques minutes, regardez dans les indésirables.",
+      "Avant la rencontre, notez ce qui bloque. Même un vague « je ne comprends pas les dérivées » suffit comme point de départ.",
+      "Apportez un examen récent, un devoir ou le plan de cours si vous en avez un. Ça m'en dit plus en trente secondes qu'une longue explication.",
+      "Trente minutes, sans engagement. Si je ne suis pas la bonne personne, je vous le dirai."
+    ],
+    "backHome": "Retour à l'accueil"
+  },
+  "events": {
+    "metaTitle": "Événements — séances de maths en direct | Inflexion",
+    "metaDescription": "Séances de mathématiques en ligne, en direct et gratuites, par Inflexion. Préparation aux examens de mi-session et finaux, cégep et université. Ouvert à tous, sans inscription.",
+    "eyebrow": "ÉVÉNEMENTS",
+    "title": "Séances en direct.",
+    "intro": "Quelques fois par session, j'anime une séance ouverte à tous — la matière qui décide des notes d'examen, travaillée comme il faut. Gratuit, sans inscription, rien à acheter.",
+    "empty": "Aucune séance n'est prévue pour le moment. La prochaine est annoncée ici en premier.",
+    "durationLabel": "Durée",
+    "durationRange": "{min}–{max} min",
+    "durationSingle": "{min} min",
+    "addToCalendar": "Ajouter au calendrier",
+    "priceLabel": "Prix",
+    "priceValue": "Gratuit",
+    "joinLabel": "Comment participer",
+    "joinReady": "Ouvrez le lien à l'heure du début. Aucun compte, aucune inscription — présentez-vous, c'est tout.",
+    "joinPending": "Le lien sera publié ici avant la séance. Ajoutez-la à votre calendrier pour ne pas la manquer.",
+    "join": "Participer à la séance"
+  }
+}

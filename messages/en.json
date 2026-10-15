@@ -1,0 +1,321 @@
+{
+  "meta": {
+    "title": "Online math tutor — high school to university | Inflexion",
+    "description": "Online math tutoring for high school, college and university. AP Calculus, Calculus I and II, linear algebra, differential equations. Free 30-minute consultation.",
+    "ogAlt": "Inflexion — online math tutoring",
+    "keywords": "online math tutor, AP Calculus tutor, pre-calculus tutor, calculus tutor online, linear algebra tutor, differential equations tutor, discrete math tutor, university math tutor"
+  },
+  "nav": {
+    "skipToContent": "Skip to main content",
+    "home": "Inflexion — home",
+    "approach": "Approach",
+    "subjects": "Subjects",
+    "process": "How it works",
+    "about": "About",
+    "faq": "FAQ",
+    "cta": "Free consultation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "events": "Events"
+  },
+  "toggles": {
+    "theme": "Toggle theme",
+    "themeToLight": "Switch to light theme",
+    "themeToDark": "Switch to dark theme",
+    "language": "Change language",
+    "languageToEn": "Passer au français"
+  },
+  "hero": {
+    "sectionNumber": "001",
+    "wordmark": "INFLEXION",
+    "headline": "The moment math starts making sense.",
+    "headlineAccent": "sense",
+    "sub": "Online tutoring for high school, college and university level math. Understanding, not memorizing.",
+    "ctaPrimary": "Book a free consultation",
+    "ctaSecondary": "See the approach",
+    "fallbackAlt": "Abstract line composition suggesting a curve and its point of inflection",
+    "labels": {
+      "left": "PROPORTIO",
+      "center": "SEC · COLL · UNIV",
+      "right": "ONLINE"
+    },
+    "statValue": "100+",
+    "statLabel": "students helped in the past 3 years"
+  },
+  "problem": {
+    "sectionNumber": "002",
+    "title": "The problem",
+    "quote": "“I'm just not a math person.”",
+    "lines": [
+      "It's the sentence I hear most often,",
+      "and it's almost always wrong.",
+      "Students who struggle aren't short on talent. They're missing a solid foundation, a method, and someone willing to show them why things actually work.",
+      "The grades follow. So does the confidence."
+    ]
+  },
+  "approach": {
+    "sectionNumber": "003",
+    "title": "The approach",
+    "pillars": [
+      {
+        "number": "01",
+        "title": "A diagnostic first",
+        "body": "First we find where things actually break down — often well before the current material — and how the student sees themselves in math."
+      },
+      {
+        "number": "02",
+        "title": "A solid foundation",
+        "body": "Next, we catch up on the missing prerequisites and build real understanding, so everything that follows rests on solid ground."
+      },
+      {
+        "number": "03",
+        "title": "Better, session after session",
+        "body": "Once the foundation is in place, we raise the bar every session: harder problems, sharper methods, and results that keep improving."
+      },
+      {
+        "number": "04",
+        "title": "A new mindset",
+        "body": "We help students go from “I'm not a math person” to “I know how to approach this.” Confidence builds with every success."
+      }
+    ]
+  },
+  "subjects": {
+    "sectionNumber": "004",
+    "title": "What we teach",
+    "regionLabel": "Curriculum",
+    "regions": [
+      {
+        "id": "qc",
+        "label": "Québec",
+        "tabs": [
+          {
+            "id": "secondaire",
+            "label": "High school",
+            "items": [
+              "Secondary 4 and 5 math (SN)",
+              "Ministry exam prep"
+            ]
+          },
+          {
+            "id": "cegep",
+            "label": "CEGEP and university",
+            "items": [
+              "Differential calculus (Calculus I)",
+              "Integral calculus (Calculus II)",
+              "First-year university calculus",
+              "Linear algebra",
+              "Differential equations",
+              "Discrete mathematics"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "intl",
+        "label": "Elsewhere",
+        "tabs": [
+          {
+            "id": "highschool",
+            "label": "High school",
+            "items": [
+              "Grade 11 and 12 math",
+              "Pre-calculus",
+              "AP Calculus AB and BC"
+            ]
+          },
+          {
+            "id": "university",
+            "label": "College and university",
+            "items": [
+              "Calculus I (differential)",
+              "Calculus II (integral)",
+              "First-year university calculus",
+              "Linear algebra",
+              "Differential equations",
+              "Discrete mathematics"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "process": {
+    "sectionNumber": "005",
+    "title": "How it works",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Free 30-minute consultation",
+        "body": "We talk through the situation, and I run a mini diagnostic with the student to pinpoint what needs reinforcing. Then we map out the next steps together."
+      },
+      {
+        "number": "02",
+        "title": "A personalized plan",
+        "body": "Clear goals, a realistic pace, and priorities set around school deadlines."
+      },
+      {
+        "number": "03",
+        "title": "Online sessions",
+        "body": "Digital whiteboard, session notes afterward, flexible evening and weekend scheduling."
+      }
+    ]
+  },
+  "about": {
+    "sectionNumber": "006",
+    "title": "About",
+    "name": "Mono Awad",
+    "credential": "B.Eng. in Computer Engineering",
+    "photoAlt": "Portrait of Mono Awad, founder of Inflexion",
+    "paragraphs": [
+      "Hi, I'm Mono. I have a bachelor's degree in computer engineering, and while I was still a student, I taught at the university for two years, including discrete mathematics.",
+      "With my students I noticed the same thing again and again: the ones who struggled weren't short on talent — they'd decided they were “not math people.”",
+      "I started Inflexion to help students reach that turning point."
+    ],
+    "personalStory": "",
+    "videoId": "",
+    "videoTitle": "The point of inflection — where the curve changes direction",
+    "videoPlayLabel": "Play video",
+    "videoFile": "",
+    "videoPoster": "/inflexion-curve-poster.jpg",
+    "reach": {
+      "qc": "I've also helped more than 100 high school and college students in Montreal, and more than 20 others around the world.",
+      "intl": "I've also helped more than 120 high school, college and university students, across North America and beyond."
+    }
+  },
+  "testimonials": {
+    "sectionNumber": "007",
+    "title": "Testimonials",
+    "parentLabel": "Parent",
+    "items": []
+  },
+  "faq": {
+    "sectionNumber": "008",
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "How do online sessions work?",
+        "a": "Sessions run over video call with a digital whiteboard. Everything I write is visible live, and the session notes are sent to you afterward."
+      },
+      {
+        "q": "Are parents involved?",
+        "a": "Yes, for students under 18. We start with a conversation together to understand the situation, and I send regular updates on progress."
+      },
+      {
+        "q": "What's included in the free consultation?",
+        "a": "Thirty minutes, a mini diagnostic with the student, and a proposed plan for what comes next."
+      },
+      {
+        "q": "What are your rates?",
+        "a": "Starting at $40 an hour, depending on the level. The first 30-minute consultation is free."
+      },
+      {
+        "q": "Cancellation policy?",
+        "a": "A session cancelled or rescheduled at least 24 hours ahead costs nothing. Under 24 hours, the session is charged, because the time was held for you and can no longer be filled. If something serious comes up — illness, an emergency — write to me and we will work it out."
+      }
+    ]
+  },
+  "booking": {
+    "sectionNumber": "009",
+    "title": "It starts with a conversation.",
+    "note": "30 minutes. No commitment.",
+    "embedTitle": "Booking calendar"
+  },
+  "footer": {
+    "wordmark": "INFLEXION",
+    "tagline": "Online math tutoring — high school, college and university level.",
+    "email": "math.inflexion@gmail.com",
+    "emailLabel": "Email",
+    "privacy": "Privacy",
+    "copyright": "© {year} Inflexion. All rights reserved."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "metaDescription": "How Inflexion collects, uses, stores and deletes the personal information of students and parents who book a consultation.",
+    "updated": "Last updated: {date}",
+    "backHome": "Back to home",
+    "sections": [
+      {
+        "heading": "Who is responsible",
+        "body": "Inflexion is run by one person: Mono Awad, based in Montreal, Quebec. I am the person responsible for the protection of personal information collected through this site, and the only person with access to it. You can reach me at math.inflexion@gmail.com with any question about this policy or about information concerning you."
+      },
+      {
+        "heading": "What I collect",
+        "body": "When you book a consultation, the form collects a name, an email address, the date and time you choose, and any details you decide to share about the student's situation — grade level, course, where things are going wrong. If you write to me by email, I keep that correspondence. During tutoring I take notes on what we covered and what to work on next. No payment information is collected on this site: payment is arranged separately between us, and no card number, bank detail or payment credential passes through this website or is stored by me."
+      },
+      {
+        "heading": "Why I collect it",
+        "body": "Only to arrange the consultation, prepare for our sessions, teach, and communicate with you about the tutoring. Nothing is sold, rented, shared with advertisers, or used to build a profile of you. There is no automated decision-making and no advertising of any kind on this site."
+      },
+      {
+        "heading": "Consent",
+        "body": "Giving me this information — by booking, or by writing to me — is your consent for the purposes described above. You can withdraw that consent at any time by emailing me. Withdrawing it means I can no longer schedule or prepare sessions, so in practice it ends the tutoring arrangement; it does not affect anything already done before you withdrew."
+      },
+      {
+        "heading": "Students under 18",
+        "body": "Many students are minors. In that case the booking must be made by a parent or guardian, consent is theirs to give, and communication about scheduling, progress and payment goes to them. A parent or guardian can ask at any time to see, correct or delete the information held about their child."
+      },
+      {
+        "heading": "How long I keep it",
+        "body": "Contact details, session notes and email correspondence are kept for 24 months after our last session, then deleted. If a consultation is booked but no tutoring follows, that booking record is deleted within 12 months. If you ask for deletion sooner, I delete it when you ask, except where the law requires me to keep something longer."
+      },
+      {
+        "heading": "The services I use",
+        "body": "Booking runs through Calendly, which stores the name, email and answers you enter in its own form under its privacy policy (calendly.com/privacy). Email and my calendar run on Google services, under Google's privacy policy (policies.google.com/privacy). Sessions are held on Google Meet, with Lessonspace as the shared whiteboard (thelessonspace.com/privacy); Lessonspace stores what we write on the board so it can be revisited later. Sessions are not recorded unless we agree to it in advance. This website is hosted by Vercel (vercel.com/legal/privacy-policy), which keeps standard server logs, including IP addresses, for security and diagnostics. Each of these companies acts as a service provider and is not permitted to use your information for its own purposes."
+      },
+      {
+        "heading": "Information stored outside Quebec",
+        "body": "The services listed above store and process information on servers outside Quebec — principally in the United States, and in Europe in the case of Lessonspace. Before using them I considered the sensitivity of what is collected — contact details, schoolwork and notes about it, not financial, health or government identifiers — the purpose it serves, the protections these providers commit to contractually, and the legal framework they operate under, and concluded the information receives adequate protection. By booking a consultation you agree to this transfer. If you would rather your information not leave Quebec, write to me and we will arrange the consultation by email instead."
+      },
+      {
+        "heading": "Cookies and tracking",
+        "body": "This site stores exactly two things of its own in your browser: a cookie named inflexion_locale, which remembers whether you chose French or English and lasts one year, and your light or dark theme choice, kept in your browser's local storage and never sent anywhere. The Calendly booking frame is a third party inside the page and may set its own cookies when you interact with it, under Calendly's policy.",
+        "id": "cookies"
+      },
+      {
+        "heading": "Security",
+        "body": "The site is served only over HTTPS. The accounts holding your information are protected by unique passwords and by two-factor authentication where the provider offers it, and I am the only person with access. No method of storage or transmission is perfectly secure, and I do not claim otherwise; if an incident ever created a risk of serious harm to you, I would notify you and the Commission d'accès à l'information, as the law requires."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You can ask to see the information I hold about you, to correct it if it is wrong, to have it deleted, to withdraw your consent, or to receive it in a structured, commonly used computerized format. Write to math.inflexion@gmail.com and I will respond within 30 days. If you are not satisfied with how I handle your request, you can file a complaint with the Commission d'accès à l'information du Québec (cai.gouv.qc.ca)."
+      },
+      {
+        "heading": "Changes to this policy",
+        "body": "If this policy changes, the revised version is posted on this page and the date above is updated. Material changes to how your information is used will be sent to you by email."
+      }
+    ],
+    "analyticsClause": " This site also uses Google Analytics to count visits and see which pages people read. It sets its own cookies and sends Google your IP address, which Google uses to approximate your location before discarding it; IP anonymisation is on. It is set up without advertising features, so the data is not used to build an advertising profile of you. You can opt out for every site with Google's browser add-on (tools.google.com/dlpage/gaoptout).",
+    "noAnalyticsClause": "This site uses no analytics, no advertising and no tracking pixels. "
+  },
+  "booked": {
+    "eyebrow": "CONFIRMED",
+    "title": "You're booked.",
+    "metaDescription": "Your free consultation with Inflexion is confirmed.",
+    "lead": "A confirmation email is on its way with the video link and the time. Add it to your calendar so it doesn't get lost.",
+    "steps": [
+      "Check your inbox — the email has the meeting link. If it isn't there in a few minutes, look in spam.",
+      "Before we meet, write down what you're stuck on. Even a vague \"I don't get derivatives\" is enough to start from.",
+      "Bring a recent test, assignment or course outline if you have one. It tells me more in thirty seconds than a long explanation.",
+      "Thirty minutes, no commitment. If I'm not the right fit, I'll say so."
+    ],
+    "backHome": "Back to home"
+  },
+  "events": {
+    "metaTitle": "Events — live math sessions | Inflexion",
+    "metaDescription": "Free live online math sessions from Inflexion. Midterm and final exam preparation for CEGEP and university calculus. Open to everyone, no sign-up.",
+    "eyebrow": "EVENTS",
+    "title": "Live sessions.",
+    "intro": "A few times a term, I teach a session open to anyone — the material that decides exam marks, worked through properly. Free, no sign-up, nothing to buy.",
+    "empty": "No session is scheduled right now. The next one is announced here first.",
+    "durationLabel": "Duration",
+    "durationRange": "{min}–{max} min",
+    "durationSingle": "{min} min",
+    "addToCalendar": "Add to calendar",
+    "priceLabel": "Price",
+    "priceValue": "Free",
+    "joinLabel": "How to join",
+    "joinReady": "Open the link at the start time. No account, no registration — just turn up.",
+    "joinPending": "The link will be posted here before the session. Add it to your calendar and you won't miss it.",
+    "join": "Join the session"
+  }
+}
